@@ -1,0 +1,90 @@
+body {
+  font-family:"Courier New";
+  font-size:12px;
+  line-height:12px;
+  text-align:center;
+  color:#a86a15;
+  background: linear-gradient(190deg, rgb(255, 248, 241), rgb(254, 178, 133));
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4 {
+  color: #713100a6;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+div {
+  color:;
+  background-color:white;
+  border-radius:20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  padding:50px;
+  margin:20px;
+}
+
+.image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.center {
+  width: 650px;
+  margin: 20px auto;
+}
+
+/* Style du bouton CTA */
+.bouton {
+  text-decoration: none;
+  background-color: #f0e1b3; /* Beige doux */
+  color: #713100;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.bouton a {
+  text-decoration: none;
+  color: inherit; /* S'assurer que le lien n'a pas de soulignement */
+}
+
+/* Effets du bouton au survol */
+.bouton:hover {
+  background-color: #e0d095; /* Beige plus foncé */
+  transform: scale(1.1); /* Zoom léger */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Ombre accentuée */
+}
+
+/* Liste des liens sociaux */
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.social-links li {
+  margin: 10px 0;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #a86a15;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+/* Effets des liens sociaux au survol */
+.social-links a:hover {
+  color: #713100; /* Change la couleur au survol */
+}
